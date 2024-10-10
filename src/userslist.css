@@ -1,0 +1,92 @@
+
+.usertable {
+    margin-top: 20px;
+    text-align: center;
+  
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #007bff;
+    border-radius: 10px;
+    background-color: #E91E63;
+    color: white;
+  }
+  
+  
+  table, th, td {
+    border: 1px solid white;
+    
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 60px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+
+.actionbtn {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.editbtn {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+}
+
+.editbtn:hover {
+  background-color: #45a049;
+}
+
+
+.deletebtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.deletebtn:hover {
+  background-color: #d32f2f;
+}
+
+
+.actionbtn i {
+  margin-right: 8px;
+}
